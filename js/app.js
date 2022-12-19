@@ -4,6 +4,7 @@ const possibleEmojis = ["🧯", "🔥", "⭐", "🧨" ,"☀️"]
 
 const winningEmojis = [["🔥", "🔥", "🔥"], ["☀️", "☀️", "☀️"], ["⭐", "⭐", "⭐"]]
 
+let marioAudio = new Audio('assets/8d82b5_Mario_Bros_New_Mario_Sound_Effect.mp3')
 /*---------------------------- Variables (state) ----------------------------*/
 
 let money = 20
@@ -74,6 +75,8 @@ function spin(evt) {
     randomizeSlots() 
     checkForWin()
     renderMoney()
+    marioAudio.volume = 0.25
+    marioAudio.play()
 }
 
 
@@ -84,3 +87,6 @@ slotEls[0].innerHTML = possibleEmojis[Math.floor(Math.random() * possibleEmojis.
 slotEls[1].innerHTML = possibleEmojis[Math.floor(Math.random() * possibleEmojis.length)];
 slotEls[2].innerHTML = possibleEmojis[Math.floor(Math.random() * possibleEmojis.length)];
 }
+
+
+

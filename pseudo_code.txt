@@ -39,18 +39,17 @@ todo:
 
 standup:
 
-- only shows 2 commits so far.. tried to commit twice over the weekend. 
 
 
 -html, 
--already added spin button & made the winning combos/emojis
--made the random emojis selection
+- already added spin button & made the winning combos/emojis
+- made the random emojis selection
 -made a function checking for winning emojis
 -made it so $ updates according to emoji combos
 
 do today:
--add gameover & congrats message display
--add audio
--figure out how to hide the spin button 
+- add gameover & congrats message display
+- add audio
+- figure out how to hide the spin button 
 
 
