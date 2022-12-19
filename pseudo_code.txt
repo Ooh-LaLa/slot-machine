@@ -8,14 +8,14 @@ Pseudo code:
 
 2. press spin button
 - play sound & do logic below:
-- deduct $1, hide spin button
+- deduct $1,
 - (asynchronization) start a set interval for .5 seconds that puts a random emoji in each square & starts another 
   interval for .5 seconds that puts different random emojis in each slot & then starts the final set interval for .5 seconds that
   does the logic below:
 - sets the final emojis, compares if they are a winning match & pays out, & says "winner!" if it 
   is & plays sound 
 - show spin button again if the player is not out of $. if out of 
-  money, game over. will say "better luck next time," displaying the 4-leaf-clover 
+  money, game over. will say "better luck next time," displaying the 4-leaf-clover, also hide spin button
 
 
 
@@ -35,3 +35,7 @@ Functionality notes:
 
 
  
+
+//update the $ display, 
+make a generic function that prints how much $ you have. in init, call that function, on spin, subtract $1 & call it again. 
+//when you spin, subtract a dollar & display current money amount
