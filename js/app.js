@@ -48,23 +48,23 @@ function renderMoney() {
 function checkForWin() {
     if(slotEls[0].innerHTML === "🔥" && slotEls[1].innerHTML === "🔥" && slotEls[2].innerHTML === "🔥") {
         money = money + 20
-        message.innerHTML = "You won $20"
+        message.innerHTML = "Congrats! You won $20"
     }
     if(slotEls[0].innerHTML === "☀️" && slotEls[1].innerHTML === "☀️" && slotEls[2].innerHTML === "☀️") {
         money = money + 10
-        message.innerHTML = "You won $10"
+        message.innerHTML = "Congrats! You won $10"
     }
     if(slotEls[0].innerHTML === "⭐" && slotEls[1].innerHTML === "⭐" && slotEls[2].innerHTML === "⭐") {
         money = money + 5
-        message.innerHTML = "You won $5"
+        message.innerHTML = "Congrats! You won $5"
     }
     if(slotEls[0].innerHTML === "🧯" && slotEls[1].innerHTML === "🧯" && slotEls[2].innerHTML === "🧯") {
         money = money + 1
-        message.innerHTML = "You won $1"
+        message.innerHTML = "Congrats! You won $1"
     }
     if(slotEls[0].innerHTML === "🧨" && slotEls[1].innerHTML === "🧨" && slotEls[2].innerHTML === "🧨") {
         money = money + 1
-        message.innerHTML = "You won $1"
+        message.innerHTML = "Congrats! You won $1"
     }
 }
 
@@ -77,6 +77,13 @@ function spin(evt) {
     renderMoney()
     marioAudio.volume = 0.25
     marioAudio.play()
+
+    if(money <= 0){
+        message.innerHTML = "Game over! Refresh page to play again."
+        spinBtn.style.visibility="hidden";
+    }
+
+   
 }
 
 
