@@ -1,0 +1,37 @@
+
+Pseudo code:
+1. intialize game display
+- display title "hot slots"
+- display three random slots, could be any three different possible emojis
+- display dollar amount that player has (start at $10)
+- display "Spin-2-Win" button
+
+2. press spin button
+- play sound & do logic below:
+- deduct $1, hide spin button
+- (asynchronization) start a set interval for .5 seconds that puts a random emoji in each square & starts another 
+  interval for .5 seconds that puts different random emojis in each slot & then starts the final set interval for .5 seconds that
+  does the logic below:
+- sets the final emojis, compares if they are a winning match & pays out, & says "winner!" if it 
+  is & plays sound 
+- show spin button again if the player is not out of $. if out of 
+  money, game over. will say "better luck next time," displaying the 4-leaf-clover 
+
+
+
+Some notes: 
+- possible emojis: star, sun, fire, heart, 4-leaf clover, kissy-face emoji
+- winning emojis: fire = $5; sun = $3; star = $1
+- cost $1 to play 
+- if game over, player must refresh page
+
+
+Functionality notes: 
+- function init() will call step 1 on page load
+- function spin() will call step 2 when player presses spin-2-win button 
+- function setRandomSlots()
+- two constants: possibleEmojis, winningEmojis
+- state variables: money amount, slots(array of three elements)
+
+
+ 
