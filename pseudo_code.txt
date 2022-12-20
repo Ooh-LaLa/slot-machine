@@ -42,10 +42,11 @@ Completed:
 - add gameover & congrats message display
 - add audio on spin button & win message 
 - disable the spin button on game over & during spin
-- updated my game theme
+- updated game theme
 - setTimeout on spin to implement asynchronization/animation
 
 To-do: 
 - learn how to animate smoke on game over
 - CSS
 - README
+- Deployment
