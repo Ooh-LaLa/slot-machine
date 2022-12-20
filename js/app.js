@@ -1,10 +1,12 @@
 /*-------------------------------- Constants --------------------------------*/
 
-const possibleEmojis = ["🧯", "🔥", "⭐", "🧨" ,"☀️"]
+const possibleEmojis = ["🧯", "🔥", "🥵", "🧨", "🚒"]
 
-const winningEmojis = [["🔥", "🔥", "🔥"], ["☀️", "☀️", "☀️"], ["⭐", "⭐", "⭐"]]
+const winningEmojis = [["🔥", "🔥", "🔥"], ["🚒", "🚒", "🚒"], ["🥵", "🥵", "🥵"]]
 
 let marioAudio = new Audio('assets/8d82b5_Mario_Bros_New_Mario_Sound_Effect.mp3')
+
+let yayAudio = new Audio('assets/428156__higgs01__yay.wav')
 /*---------------------------- Variables (state) ----------------------------*/
 
 let money = 20
@@ -34,6 +36,7 @@ function init() {
 
     randomizeSlots()
     renderMoney()
+    yayAudio.volume = 0.50
 }
 
 
@@ -48,42 +51,76 @@ function renderMoney() {
 function checkForWin() {
     if(slotEls[0].innerHTML === "🔥" && slotEls[1].innerHTML === "🔥" && slotEls[2].innerHTML === "🔥") {
         money = money + 20
-        message.innerHTML = "Congrats! You won $20"
+        message.innerHTML = "Congrats, hot stuff! You won $20"
+        yayAudio.play()
     }
-    if(slotEls[0].innerHTML === "☀️" && slotEls[1].innerHTML === "☀️" && slotEls[2].innerHTML === "☀️") {
+    if(slotEls[0].innerHTML === "🥵" && slotEls[1].innerHTML === "🥵" && slotEls[2].innerHTML === "🥵") {
         money = money + 10
-        message.innerHTML = "Congrats! You won $10"
+        message.innerHTML = "Hot damn! You won $10"
+        yayAudio.play()
     }
-    if(slotEls[0].innerHTML === "⭐" && slotEls[1].innerHTML === "⭐" && slotEls[2].innerHTML === "⭐") {
+    if(slotEls[0].innerHTML === "🚒" && slotEls[1].innerHTML === "🚒" && slotEls[2].innerHTML === "🚒") {
         money = money + 5
-        message.innerHTML = "Congrats! You won $5"
+        message.innerHTML = "It's hot in here! You won $5"
+        yayAudio.play()
     }
     if(slotEls[0].innerHTML === "🧯" && slotEls[1].innerHTML === "🧯" && slotEls[2].innerHTML === "🧯") {
         money = money + 1
         message.innerHTML = "Congrats! You won $1"
+        yayAudio.play()
     }
     if(slotEls[0].innerHTML === "🧨" && slotEls[1].innerHTML === "🧨" && slotEls[2].innerHTML === "🧨") {
         money = money + 1
         message.innerHTML = "Congrats! You won $1"
+        yayAudio.play()
     }
 }
 
 
-function spin(evt) {
+function spin() {
+    spinBtn.disabled = true
     message.innerHTML = ""
     money--
-    randomizeSlots() 
-    checkForWin()
     renderMoney()
+    randomizeSlots()
     marioAudio.volume = 0.25
     marioAudio.play()
 
-    if(money <= 0){
-        message.innerHTML = "Game over! Refresh page to play again."
-        spinBtn.style.visibility="hidden";
-    }
+    setTimeout(() => { 
+        randomizeSlots()
+        
+    }, 100);
 
-   
+    setTimeout(() => { 
+        randomizeSlots()
+        
+    }, 200);
+
+    setTimeout(() => { 
+        randomizeSlots()
+        
+    }, 350);
+
+    setTimeout(() => { 
+        finalSpin()
+        
+    }, 500);
+}
+
+
+function finalSpin(evt) {
+
+    randomizeSlots() 
+    checkForWin()
+    renderMoney()
+
+    if(money <= 0){
+        message.innerHTML = "Game over! Refresh page to play again"
+        spinBtn.style.visibility="hidden";
+    } 
+    else {
+        spinBtn.disabled = false
+    }
 }
 
 

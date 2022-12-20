@@ -33,23 +33,19 @@ Functionality notes:
 - two constants: possibleEmojis, winningEmojis
 - state variables: money amount, slots(array of three elements)
 
-todo:
- -at bottom of spin function, if money is <= 0, make money go away & make message say gameover
-
-
-standup:
-
-
-
--html, 
-- already added spin button & made the winning combos/emojis
-- made the random emojis selection
--made a function checking for winning emojis
--made it so $ updates according to emoji combos
-
-do today:
+Completed:
+- at bottom of spin function, if money is <= 0, make money go away & make message say gameover
+- add spin button & make the winning combos/emojis
+- make the random emojis selection
+- make a function checking for winning emojis
+- make it so $ updates according to emoji combos
 - add gameover & congrats message display
-- add audio
-- figure out how to hide the spin button 
+- add audio on spin button & win message 
+- disable the spin button on game over & during spin
+- updated my game theme
+- setTimeout on spin to implement asynchronization/animation
 
-
+To-do: 
+- learn how to animate smoke on game over
+- CSS
+- README
