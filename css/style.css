@@ -7,7 +7,11 @@ html {
 *::after {
   box-sizing: inherit;
 }
-  
+
+  body {
+    font-family: 'Lilita One', cursive;
+  }
+
   main.slots {
     justify-content: center;
     display: grid;
@@ -40,7 +44,8 @@ html {
     margin-bottom: 50px;
     justify-self: center;
     text-align: center;
-    font-family: 'Inter Tight';
+    font-family: 'Lilita One', cursive;
+
   }
 
   .message {
@@ -93,7 +98,7 @@ width: 100%;
 text-align: center;
 color: #ddd;
 font-size: 5em;
-font-family: 'Inter Tight';
+font-family: font-family: 'Lilita One', cursive;
 letter-spacing: 0em;
 }
 h1 span{

@@ -44,9 +44,13 @@ Completed:
 - disable the spin button on game over & during spin
 - updated game theme
 - setTimeout on spin to implement asynchronization/animation
+- animate smoke
 
 To-do: 
-- learn how to animate smoke on game over
 - CSS
 - README
-- Deployment
+
+
+Credit:
+HTML5 CSS Smoke Effect
+Bikash Panda

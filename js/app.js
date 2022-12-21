@@ -44,7 +44,7 @@ init()
 
 
 function renderMoney() {
-  moneyAmount.innerHTML = `Bank: $${money}`
+  moneyAmount.innerHTML = `Cash: $${money}`
 }
 
 
@@ -83,6 +83,7 @@ function spin() {
     money--
     renderMoney()
     randomizeSlots()
+
     marioAudio.volume = 0.25
     marioAudio.play()
 
