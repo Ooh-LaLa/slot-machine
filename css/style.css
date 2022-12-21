@@ -32,15 +32,15 @@ html {
 
 
   .divBtn {
-    display: flex;
-    flex-direction: row;
+    display: flex;;
     width: 100%;
     justify-content: center;
   }
 
   .spinBtn {
+    margin-left: auto;
+    margin-right: auto;
     display: flex;
-    flex-direction: row;
     margin-bottom: 50px;
     justify-self: center;
     text-align: center;
@@ -98,7 +98,7 @@ width: 100%;
 text-align: center;
 color: #ddd;
 font-size: 5em;
-font-family: font-family: 'Lilita One', cursive;
+font-family: 'Lilita One', cursive;
 letter-spacing: 0em;
 }
 h1 span{
