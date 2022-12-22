@@ -116,7 +116,7 @@ function finalSpin(evt) {
     renderMoney()
 
     if(money <= 0){
-        message.innerHTML = "Game over! Refresh page to play again"
+        message.innerHTML = "Game over! Refresh page to play again 🥵"
         spinBtn.style.visibility="hidden";
     } 
     else {
