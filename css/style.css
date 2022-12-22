@@ -19,7 +19,7 @@ html {
   .slots {
     justify-content: center;
     display: grid;
-    grid-template-columns: repeat(3, 10vmin);
+    grid-template-columns: repeat(3, 13vmin);
     grid-gap: 0vmin;
     margin-bottom: 0px;
     background-color: white;
@@ -28,7 +28,7 @@ html {
 
   .slot {
     border: 3px solid black;
-    font-size: 8vmin;
+    font-size: 9vmin;
     text-align: center;
     vertical-align: middle;
     margin-bottom: 32px;
@@ -45,10 +45,14 @@ html {
     margin-left: auto;
     margin-right: auto;
     display: flex;
+    margin-top: 10px;
     margin-bottom: 50px;
     justify-self: center;
     text-align: center;
-    font-family: 'Lilita One;';
+    font-family:  sans-serif;
+    font-size: 14px;
+    padding: 3px;
+    font-weight: bold;
 
   }
 
