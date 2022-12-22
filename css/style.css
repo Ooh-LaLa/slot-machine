@@ -10,7 +10,7 @@ html {
 }
 
   body {
-    margin-top: 0;
+    margin: 0;
     font-family: 'Lilita One', cursive;
     display: flex;
     flex-direction: column;
@@ -73,7 +73,7 @@ html {
   justify-content: center;
   align-items: center;
   background-color: #222222;
-  max-height: 5vh !important; 
+  /* max-height: 5vh !important;  */
   min-width: 100vw;
   position: relative;
 }
