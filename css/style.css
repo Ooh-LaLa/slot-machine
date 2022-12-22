@@ -67,13 +67,13 @@ html {
   }
 
 /* smoke section below */
-/* .smokeSection {
+ .smokeSection {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   background-color: #222222;
-  /* max-height: 5vh !important;  */
+  max-height: 5vh !important; 
   min-width: 100vw;
   position: relative;
 }
@@ -148,9 +148,9 @@ animation-delay:5s;
 }
     /* end smoke section */
 
-    /* begin falling money */
+    /* begin falling money
 /* main container */
-.container{
+/* .container{
 	top:0px;
 	background:#fff;
 	width:100%;
@@ -159,10 +159,10 @@ animation-delay:5s;
 	position:absolute;
 	left:0%;
 /* 	background:#1E1E20 url(http://premiumcoding.com/CSSTricks/fallingLeaves/autumn.jpg) center top no-repeat; */
-  background-size: cover;
-}
+  /* background-size: cover;
+} */
 
-.loader {
+/* .loader {
     text-align: center;
 }
 .loader span {
@@ -256,6 +256,6 @@ animation-delay:5s;
     opacity: 0;
     
 	-webkit-transform: translate(150px, 800px) rotateZ(360deg);
-  }
-} */
+  } 
+} */ 
 /* end falling money */
