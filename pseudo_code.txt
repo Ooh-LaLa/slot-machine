@@ -6,6 +6,7 @@ Pseudo code:
 - display dollar amount that player has (start at $10)
 - display "Spin-2-Win" button
 
+
 2. press spin button
 - play sound & do logic below:
 - deduct $1 & disable button
@@ -16,7 +17,6 @@ Pseudo code:
   & plays sound 
 - enable spin button again if the player is not out of $. if out of 
   money, game over, displaying message
-
 
 
 Some notes: 
@@ -33,7 +33,8 @@ Functionality notes:
 - two constants: possibleEmojis, winningEmojis
 - state variables: money amount, slots(array of three elements/emojis)
 
-Completed:
+
+More notes:
 - at bottom of spin function, if money is <= 0, make money go away & make message say gameover
 - add spin button & make the winning combos/emojis
 - make the random emojis selection
@@ -45,11 +46,4 @@ Completed:
 - updated game theme
 - setTimeout on spin to implement asynchronization/animation
 - animate smoke
-- add CSS
-- add README
-
-Credit:
-HTML5 CSS Smoke Effect
-Bikash Panda
-
 
