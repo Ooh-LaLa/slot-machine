@@ -4,7 +4,9 @@
 _To play, you're one [click](https://hot-slots.netlify.app/) away_
 
 
-![Check out this sneak peak!](HotSlotsScreenShot.png)
+
+
+![](assets/HotSlotsScreenShot.png)
 
 
 ## Intro:
@@ -26,10 +28,12 @@ Enjoy!!
 
 ## Technologies Used:
 
-CSS JavaScript
-HTML
-git
+- CSS 
+- JavaScript
+- HTML
+- git
+
 
 
 ## Credits:
-[HTML5 CSS Smoke Effect - Bikash Panda](https://codepen.io/phpcodertech/pen/NZLzve)
+[HTML5 CSS Smoke Effect - Bikash Panda]
