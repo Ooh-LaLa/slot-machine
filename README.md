@@ -1,16 +1,19 @@
-🔥 Welcome to Hot Slots! 🔥
+# **🔥 Welcome to Hot Slots! 🔥**
 
 
-To play, you're one click away:  https://hot-slots.netlify.app/
+_To play, you're one [click](https://hot-slots.netlify.app/) away_
 
 
-Intro:
+![Check out this sneak peak!](HotSlotsScreenShot.png)
+
+
+## Intro:
 
 A slot machine game that has a theme that is too hot to handle. 
 Have fun pretending you’re at the casino with this sizzling game that’ll make you a winner simply by trying it out.
 
 
-Game Play:
+## Game Play:
 
 Press the Spin-2-Win button to win imaginary ca$h. 
 There are five possible winning combinations. 
@@ -21,13 +24,12 @@ Enjoy!!
 
 
 
-Technologies Used:
+## Technologies Used:
 
-CSS
-JavaScript
+CSS JavaScript
 HTML
 git
 
 
-Credits:
-HTML5 CSS Smoke Effect - Bikash Panda
+## Credits:
+[HTML5 CSS Smoke Effect - Bikash Panda](https://codepen.io/phpcodertech/pen/NZLzve)

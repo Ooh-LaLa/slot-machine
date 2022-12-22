@@ -117,7 +117,7 @@ function finalSpin(evt) {
 
     if(money <= 0){
         message.innerHTML = "Game over! Refresh page to play again 🥵"
-        spinBtn.style.visibility="hidden";
+        spinBtn.style.visibility= "hidden";
     } 
     else {
         spinBtn.disabled = false

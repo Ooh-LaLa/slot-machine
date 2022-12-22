@@ -12,16 +12,16 @@ Pseudo code:
 - (asynchronization) start a set interval for .5 seconds that puts a random emoji in each square & starts another 
   interval for .5 seconds that puts different random emojis in each slot & then starts the final set interval for .5 seconds that
   does the logic below:
-- sets the final emojis, compares if they are a winning match & pays out, & says "winner!" if it 
-  is & plays sound 
+- sets the final emojis, compares if they are a winning match. If it's a win, pays out, displaying congrats message
+  & plays sound 
 - enable spin button again if the player is not out of $. if out of 
-  money, game over. will say "better luck next time," displaying the 4-leaf-clover, also hide spin button
+  money, game over, displaying message
 
 
 
 Some notes: 
-- possible emojis: star, sun, fire, heart, 4-leaf clover, kissy-face emoji
-- winning emojis: fire = $5; sun = $3; star = $1
+- possible emojis: fire truck, fire, dynamite, hot-face emoji, fire extinguisher
+- winning emojis: fire = $20; hot-face emoji = $10; fire truck = $5; dynamite = $; fire extinguisher = $1
 - cost $1 to play 
 - if game over, player must refresh page
 
@@ -31,7 +31,7 @@ Functionality notes:
 - function spin() will call step 2 when player presses spin-2-win button 
 - function setRandomSlots()
 - two constants: possibleEmojis, winningEmojis
-- state variables: money amount, slots(array of three elements)
+- state variables: money amount, slots(array of three elements/emojis)
 
 Completed:
 - at bottom of spin function, if money is <= 0, make money go away & make message say gameover
@@ -45,11 +45,8 @@ Completed:
 - updated game theme
 - setTimeout on spin to implement asynchronization/animation
 - animate smoke
-
-To-do: 
-- CSS
-- README
-
+- add CSS
+- add README
 
 Credit:
 HTML5 CSS Smoke Effect
