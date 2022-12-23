@@ -63,13 +63,13 @@ function checkForWin() {
         yayAudio.play()
     }
     if(slotEls[0].innerHTML === "🧯" && slotEls[1].innerHTML === "🧯" && slotEls[2].innerHTML === "🧯") {
-        money = money + 1
-        message.innerHTML = "Congrats! You won $1"
+        money = money + 2
+        message.innerHTML = "Congrats! You won $2"
         yayAudio.play()
     }
     if(slotEls[0].innerHTML === "🧨" && slotEls[1].innerHTML === "🧨" && slotEls[2].innerHTML === "🧨") {
-        money = money + 1
-        message.innerHTML = "Congrats! You won $1"
+        money = money + 2
+        message.innerHTML = "Congrats! You won $2"
         yayAudio.play()
     }
 }

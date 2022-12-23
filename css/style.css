@@ -1,13 +1,13 @@
 
-html {
+  html {
   box-sizing: border-box;
-}
+  }
 
-*,
-*::before,
-*::after {
-  box-sizing: inherit;
-}
+   *,
+   *::before,
+   *::after {
+   box-sizing: inherit;
+  }
 
   body {
     margin: 0;
@@ -70,7 +70,9 @@ html {
     text-align: center;
   }
 
-/* smoke section below */
+/* Smoke section below (Credit: Bikash Panda -
+  https://codepen.io/phpcodertech/pen/NZLzve) */
+
  .smokeSection {
   display: flex;
   flex-direction: column;
@@ -149,4 +151,3 @@ animation-delay:4.5s;
 {
 animation-delay:5s;
 }
-    /* end smoke section */

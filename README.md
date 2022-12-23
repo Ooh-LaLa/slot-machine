@@ -5,8 +5,8 @@ _To play, you're one [click](https://hot-slots.netlify.app/) away_
 
 
 
-
 ![](assets/HotSlotsScreenShot.png)
+
 
 
 ## Intro:
@@ -18,12 +18,11 @@ Have fun pretending you’re at the casino with this sizzling game that’ll mak
 ## Game Play:
 
 Press the Spin-2-Win button to win imaginary ca$h. 
-There are five possible winning combinations. 
+There are five possible winning combinations. Costs $1 per spin.
 Get three of a kind to score some cash.
 If you run out of money, refresh the page to play again. 
 
 Enjoy!!
-
 
 
 ## Technologies Used:
@@ -32,13 +31,15 @@ Enjoy!!
 - JavaScript
 - HTML
 - GitHub
-- Visual Studio
+- VS Code
+
 
 ## Icebox:
 
 [ ] Falling cash animation
 [ ] Mobile responsive design
 [ ] Reset button
+[ ] Add message: "Cost $1 to play" 
 
 
 ## Credits:
