@@ -35,11 +35,10 @@ Enjoy!!
 
 
 ## Icebox:
-
-[ ] Falling cash animation
-[ ] Mobile responsive design
-[ ] Reset button
-[ ] Add message: "Cost $1 to play" 
+- Falling cash animation
+- Mobile responsive design
+- Reset button
+- Add message: "Cost $1 to play" 
 
 
 ## Credits:
