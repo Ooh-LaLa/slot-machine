@@ -5,7 +5,7 @@ _To play, you're one [click](https://hot-slots.netlify.app/) away_
 
 
 
-![](assets/Screen Shot.png)
+![](assets/ScreenShot.png)
 
 
 
