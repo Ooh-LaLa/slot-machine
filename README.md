@@ -31,8 +31,14 @@ Enjoy!!
 - CSS 
 - JavaScript
 - HTML
-- git
+- GitHub
+- Visual Studio
 
+## Icebox:
+
+[ ] Falling cash animation
+[ ] Mobile responsive design
+[ ] Reset button
 
 
 ## Credits:

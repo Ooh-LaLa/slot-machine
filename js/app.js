@@ -2,8 +2,6 @@
 
 const possibleEmojis = ["🧯", "🔥", "🥵", "🧨", "🚒"]
 
-const winningEmojis = [["🔥", "🔥", "🔥"], ["🚒", "🚒", "🚒"], ["🥵", "🥵", "🥵"]]
-
 let marioAudio = new Audio('assets/8d82b5_Mario_Bros_New_Mario_Sound_Effect.mp3')
 
 let yayAudio = new Audio('assets/428156__higgs01__yay.wav')
